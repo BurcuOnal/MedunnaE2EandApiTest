@@ -1,3 +1,4 @@
+@ui @e2e
 Feature: Create Medunna Room
 
   Background: User login
