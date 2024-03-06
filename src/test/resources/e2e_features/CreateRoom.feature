@@ -5,7 +5,8 @@ Feature: Create Medunna Room
     Given Go to Medunna website
     When Click on user dropdown button
     And Click on sign in button
-    And Enter username and password
+    And Enter username
+    And Enter password
     And Click on sign in button again
 
   Scenario Outline: Create Room
@@ -21,4 +22,4 @@ Feature: Create Medunna Room
     Then Close the site
     Examples:
       | price | description                 |
-      | 123   | Created for End To End Test
+      | 123   | Created for End To End Test |

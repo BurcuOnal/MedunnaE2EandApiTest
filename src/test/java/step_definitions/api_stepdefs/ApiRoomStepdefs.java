@@ -7,8 +7,6 @@ import io.restassured.response.Response;
 import pojos.RoomPojo;
 
 import java.util.List;
-
-import static baseurl.MedunnaBaseUrl.spec;
 import static io.restassured.RestAssured.given;
 import static junit.framework.TestCase.assertEquals;
 import static step_definitions.e2e_stepdefs.MedunnaRoomStepDefs.roomNumber;
